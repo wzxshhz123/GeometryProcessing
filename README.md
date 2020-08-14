@@ -14,7 +14,7 @@ These are some geometry processing algorithm in python
 
 - Youyi Zheng, Hongbo Fu, Oscar Kin-Chung Au, and Chiew-Lan Tai. 2011. **Bilateral Normal Filtering for Mesh Denoising**. IEEE Transactions on Visualization and Computer Graphics 17, 10 (October 2011), 1521-1530.
 
-- Laplacian Smooth (explicit, implicit)
+- **Laplacian Smooth** (explicit, implicit)
 
 ## Mesh Subdivision
 
