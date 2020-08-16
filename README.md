@@ -26,5 +26,9 @@ These are some geometry processing algorithm in python
 
 ## Mesh Simplification
 
-- Garland, M. and Heckbert, P.S., 1997, August. S**urface simplification using quadric error metrics**. In Proceedings of the 24th annual conference on Computer graphics and interactive techniques (pp. 209-216). (TODO)
+- Garland, M. and Heckbert, P.S., 1997, August. **Surface simplification using quadric error metrics**. In Proceedings of the 24th annual conference on Computer graphics and interactive techniques (pp. 209-216). (TODO)
+
+## Delaunay Triangulations
+
+- Graham, R.L. (1972). **An Efficient Algorithm for Determining the Convex Hull of a Finite Planar Set**. Information Processing Letters 1, 132-133
 
