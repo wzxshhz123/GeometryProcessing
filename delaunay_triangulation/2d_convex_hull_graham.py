@@ -1,12 +1,17 @@
+import argparse
 from collections import deque
 import functools
 
 import numpy as np
 import matplotlib.pyplot as plt
 
+parser = argparse.ArgumentParser()
+parser.add_argument('--point_num', type=int, default=100)
+
 if __name__ == '__main__':
+    args = parser.parse_args()
     # sample points
-    points = np.random.random(size=(100, 2))
+    points = np.random.random(size=(args.point_num, 2))
     plt.scatter(points[:, 0], points[:, 1])
 
     # sort by x, if x eq sort by y
