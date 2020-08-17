@@ -31,4 +31,5 @@ These are some geometry processing algorithm in python
 ## Delaunay Triangulations
 
 - Graham, R.L. (1972). **An Efficient Algorithm for Determining the Convex Hull of a Finite Planar Set**. Information Processing Letters 1, 132-133
+- Alliez, P., Cohen-Steiner, D., Yvinec, M. and Desbrun, M., 2005. **Variational tetrahedral meshing**. In *ACM SIGGRAPH 2005 Papers* (pp. 617-625).
 
