@@ -1,5 +1,6 @@
 import argparse
 
+import tqdm
 import igl
 import numpy as np
 import scipy.sparse.linalg as spl
@@ -11,7 +12,7 @@ parser.add_argument('--save_path', type=str, default='lucy_laplacian_smooth.obj'
 parser.add_argument('--h', help="time step", type=float, default=0.01)
 parser.add_argument('--iter_num', type=int, default=10)
 parser.add_argument('--lambda_coffe', type=float, default=0.0001)
-parser.add_argument('--type', default='implicit', choices=['implicit', 'explicit'])
+parser.add_argument('--type', default='explicit', choices=['implicit', 'explicit'])
 if __name__ == '__main__':
     # load param
     args = parser.parse_args()
@@ -25,7 +26,7 @@ if __name__ == '__main__':
     lambda_coffe = args.lambda_coffe
     # time step
     h = args.h
-    for i in range(t):
+    for i in tqdm.trange(t):
         m = igl.massmatrix(v, f, igl.MASSMATRIX_TYPE_BARYCENTRIC)
         if args.type == 'implicit':
             # implicit
