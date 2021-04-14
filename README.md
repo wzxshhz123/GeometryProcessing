@@ -18,8 +18,7 @@ These are some geometry processing algorithm in python
 - **Cot Laplace–Beltrami operator**
 
 - **Vertex Mass matrix**
-- **BARYCENTRIC**
-  
+  - **BARYCENTRIC**
 ## Mesh Smooth
 
 - Shachar Fleishman, Iddo Drori, and Daniel Cohen-Or. 2003. **Bilateral mesh denoising**. ACM Trans. Graph. 22, 3 (July
@@ -44,10 +43,17 @@ These are some geometry processing algorithm in python
 
 ## Delaunay Triangulations
 
-- Graham, R.L. (1972). **An Efficient Algorithm for Determining the Convex Hull of a Finite Planar Set**. Information Processing Letters 1, 132-133
-- Alliez, P., Cohen-Steiner, D., Yvinec, M. and Desbrun, M., 2005. **Variational tetrahedral meshing**. In *ACM SIGGRAPH 2005 Papers* (pp. 617-625).
+- Graham, R.L. (1972). **An Efficient Algorithm for Determining the Convex Hull of a Finite Planar Set**. Information
+  Processing Letters 1, 132-133
+- Alliez, P., Cohen-Steiner, D., Yvinec, M. and Desbrun, M., 2005. **Variational tetrahedral meshing**. In *ACM SIGGRAPH
+  2005 Papers* (pp. 617-625).
 
 ## Capacity Constrained Voronoi Tessellation Family
 
-- Balzer, M., Schlömer, T., & Deussen, O. (2009). **Capacity-Constrained Point Distributions: A Variant of Lloyd’s
+- Balzer, M., Schlömer, T., & Deussen, O. 2009. **Capacity-Constrained Point Distributions: A Variant of Lloyd’s
   Method**
+
+## Mesh Feature Signature
+
+- Jian Sun and M. Ovsjanikov and L. Guibas. 2009. **A Concise and Provably Informative Multi-Scale Signature Based on
+  Heat Diffusion(HKS)**
