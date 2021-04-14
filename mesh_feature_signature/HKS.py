@@ -15,9 +15,8 @@ def HKS(mesh: trimesh.Trimesh, t=20, show=False):
     cot = -igl.cotmatrix(mesh.vertices, mesh.faces).toarray()
     eig_value, eig_vector = np.linalg.eigh(cot)
     hks = eig_vector ** 2 * np.exp(-eig_value * t)
-
-    hks_vertex = np.sum(hks, axis=1)
     if show:
+        hks_vertex = np.sum(hks, axis=1)
         colors = jet(hks_vertex)[:, :3]
         mesh.visual.vertex_colors = colors
         mesh.show()
