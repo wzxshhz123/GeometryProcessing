@@ -57,3 +57,8 @@ These are some geometry processing algorithm in python
 
 - Jian Sun and M. Ovsjanikov and L. Guibas. 2009. **A Concise and Provably Informative Multi-Scale Signature Based on
   Heat Diffusion(HKS)**
+
+## Mesh Geodesic Distance
+
+- Crane K, Weischedel C, Wardetzky M. **Geodesics in heat: A new approach to computing distance based on heat flow[J].
+  Acm Transactions on Graphics**

@@ -7,7 +7,7 @@ import igl
 from basic_tool import jet
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--load_path', type=str, default='/Users/bear/Dropbox/Code/asset/bunny.obj')
+parser.add_argument('--load_path', type=str, default='/Users/bear/Dropbox/Code/asset/homer.off')
 parser.add_argument('--t', type=float, default=20)
 
 
@@ -26,4 +26,5 @@ def HKS(mesh: trimesh.Trimesh, t=20, show=False):
 if __name__ == '__main__':
     args = parser.parse_args()
     mesh = trimesh.load_mesh(args.load_path, process=False)
-    hks = HKS(mesh, args.t)
+    mesh: trimesh.Trimesh
+    hks = HKS(mesh, args.t, show=True)
